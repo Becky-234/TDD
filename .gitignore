@@ -1,0 +1,22 @@
+# Node / JavaScript
+javascript/node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.env
+.venv/
+python/.venv/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
