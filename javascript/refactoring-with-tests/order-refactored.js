@@ -5,7 +5,7 @@ const INTL_SHIPPING_COST = 15;
 const LARGE_ORDER_QTY_THRESHOLD = 100;
 
 class OrderProcessor {
-  constructor({ user, items, discountCode, shippingAddress, billingAddress }) {
+  constructor(user, items, discountCode, shippingAddress, billingAddress) {
     this.user = user;
     this.items = items;
     this.discountCode = discountCode;

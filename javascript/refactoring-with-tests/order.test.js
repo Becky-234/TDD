@@ -1,5 +1,7 @@
-const OrderProcessor = require("./order-refactpred")
+const OrderProcessor = require("./order-refactored")
 
+// Uncomment to test with old class
+// const OrderProcessor = require("./order")
 
 
 describe("OrderProcessor (smelly version)", () => {
