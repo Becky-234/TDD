@@ -13,7 +13,7 @@ function payment(level, hours) {
     }
 
     if (level === 'univ') {
-        return hours*rates['univ'] + 1
+        return hours*rates['univ']
     }
 }
 
