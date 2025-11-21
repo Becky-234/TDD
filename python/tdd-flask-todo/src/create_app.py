@@ -9,7 +9,6 @@ def create_app():
     def get_todos():
         return jsonify(todos)
 
-
     @app.post("/todos")
     def add_todo():
         body = request.get_json()
